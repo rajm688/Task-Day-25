@@ -1,0 +1,29 @@
+body{
+    font-size: 800;
+    font-family: 'Kaushan Script', cursive;
+    background-image: url(https://i.pinimg.com/originals/fd/75/f6/fd75f6db79d0a65acc055b17a5418f8d.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(248, 131, 131);
+}
+#heading{
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    background-color: aqua;
+    color: azure;
+    border: 5px dashed cornflowerblue  ;
+}
+.card{
+    background-color:beige ;
+    display: inline-block;
+}
+#text{
+    margin: 0;
+    padding: 10px;
+    width: 305px;
+    height: 200px;
+    background-color:  beige;
+    overflow: auto;
+}
