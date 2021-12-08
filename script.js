@@ -7,7 +7,7 @@ submit.addEventListener("click",function click(){
             char = chars[i].value;
         }
     }
-    var url =`http://hp-api.herokuapp.com/api/characters/${char}`;
+    var url =`https://hp-api.herokuapp.com/api/characters/${char}`;
     const fetchData = async ()=>{
         try{
            const response = await fetch(url); 
