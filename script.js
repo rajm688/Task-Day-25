@@ -8,7 +8,7 @@ submit.addEventListener("click",function click(){ // adding event listner to sub
         }
     }
     var url =`https://hp-api.herokuapp.com/api/characters/${char}`; // getting the url
-    const fetchData = async ()=>{ // using asynnc and await for connecint data from API
+    const fetchData = async ()=>{ // using async and await for collect data from API
         try{
            const response = await fetch(url); 
             var heros = await response.json();
